@@ -1,2 +1,2 @@
 # EasyLCD
- Make using liquid crystal displays (LCDs) with Arduino easier.
+Make using liquid crystal displays (LCDs) with Arduino easier. This library extends [LiquidCrystal](https://github.com/arduino-libraries/LiquidCrystal) to make it easier to work with liquid crystal displays (LCDs).
