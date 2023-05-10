@@ -6,7 +6,7 @@
 #define LEFT 1
 
 struct row {
-  char* text; // The text to display on the row.
+  char* text = nullptr; // The text to display on the row.
   uint16_t length; // The length of the text, without the null terminator.
   uint16_t startIndex = 0; // The index to start the text slice.
   unsigned long prevScrollTime = 0; // The last time the text scrolled.
